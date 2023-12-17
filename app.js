@@ -8,7 +8,7 @@ const mongoDB = 'mongodb://root:wMwonzj=yGq8@35.175.199.244:27017';
 const server = http.createServer((req, res) => {
     res.statusCode = 200;
     res.setHeader('Content-Type', 'text/plain');
-    res.end('Actividad 1 - Jorge Anselmo Alvarado Balbuena\n');
+    res.end('Actividad 2 - Jorge Anselmo Alvarado Balbuena\nMongo connection string es mongodb://root:wMwonzj=yGq8@35.175.199.244:27017');
 });
 
 server.listen(port, hostname, () => {
