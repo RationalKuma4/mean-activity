@@ -1,8 +1,8 @@
 const http = require('http');
 const mongoose = require('mongoose');
 
-//const hostname = '0.0.0.0';
-const hostname = 'localhost';
+const hostname = '0.0.0.0';
+//const hostname = 'localhost';
 const port = 3000;
 
 // MongoDB connection string
