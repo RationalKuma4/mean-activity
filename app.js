@@ -1,10 +1,7 @@
 const http = require('http');
 
 const hostname = '0.0.0.0';
-//const hostname = 'localhost';
-const port = 3210;
-
-//const mongoDB = 'mongodb://root:wMwonzj=yGq8@35.175.199.244:27017';
+const port = 3001; // Puerto cambiado a 3001
 
 const server = http.createServer((req, res) => {
     res.statusCode = 200;
